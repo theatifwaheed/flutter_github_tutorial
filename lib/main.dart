@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:github_tutorial/Screens/LoginScreen/login_screen.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     //Set the fit size (Find your UI design, look at the dimensions of the device screen and fill it in,unit in dp)
     return ScreenUtilInit(
-      designSize: const Size(360, 690),
+      designSize: const Size(414, 896),
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context , child) {
