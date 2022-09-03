@@ -13,6 +13,7 @@ class _LoginScreenHomeState extends State<LoginScreenHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFF4F8FD),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(
@@ -34,11 +35,26 @@ class _LoginScreenHomeState extends State<LoginScreenHome> {
               SizedBox(
                 height: 40.h,
               ),
-
-              const Text(
-                "WELCOME BACK"
+              Text(
+                "WELCOME BACK",
+                style: TextStyle(
+                  fontFamily: "SFPro",
+                  fontSize: 15.sp,
+                  color: const Color(0xFF8E9DB1),
+                ),
+              ),
+              SizedBox(
+                height: 8.h,
+              ),
+              Text(
+                "Account Log In",
+                style: TextStyle(
+                  fontSize: 28.sp,
+                  fontFamily: "SFPro",
+                  fontWeight: FontWeight.bold,
+                  color: const Color(0xFF0F2D52),
+                ),
               )
-
             ],
           ),
         ),
