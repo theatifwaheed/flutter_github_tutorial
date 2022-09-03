@@ -35,6 +35,10 @@ class _LoginScreenHomeState extends State<LoginScreenHome> {
                 height: 40.h,
               ),
 
+              const Text(
+                "WELCOME BACK"
+              )
+
             ],
           ),
         ),
